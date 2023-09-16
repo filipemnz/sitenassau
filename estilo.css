@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+
+body {
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-family: "Dosis", sans-serif;
+    background-color: rgb(33, 51, 102);
+}
+
+#menu {
+    list-style-type: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 10px auto;
+    text-align: center;
+    background-color:white;
+}
+
+.menuli {
+    display:inline-flex;
+    margin-bottom: 1.5%;
+    background-color: rgb(243, 211, 50);
+    border-radius: 5px;
+}
+
+.menuli a {
+    font-size: larger;
+    text-decoration: none;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: rgb(33, 51, 102);
+    transition: 0.2s;
+}
+
+.menuli a:hover {
+    background-color: rgb(33, 51, 102);
+    color: black;
+
+}
+
+#carouselExampleIndicators {
+    text-align: center;
+    max-width: 100%;
+}
+
+#menuba {
+    background-color: rgb(33, 51, 102);
+    text-align: center;
+    margin: 1% auto;
+    padding: 20px 1px 1px 1px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#linksfc {
+    color: black;
+    margin-right: 500px;
+}
+
+.imglink {
+    float: right;
+    display: flexbox;
+}
